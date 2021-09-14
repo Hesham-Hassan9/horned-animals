@@ -23,7 +23,7 @@ class SelectedHorns extends React.Component {
           <Modal.Footer >
             <p>Don't forget to VOTE for your favorite!</p>
           </Modal.Footer>
-          <Button closeButton >Close</Button>
+          <Button onClick = {this.props.closeModal} >Close</Button>
         </Modal>
       </>
     );
